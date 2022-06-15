@@ -8,12 +8,17 @@
 import SwiftUI
 import Foundation
 
+let n = 3
+let m = 5
+
 struct ContentView: View {
     var body: some View {
+        
         VStack {
             Text("SwiftUI")
             Text(LocalizedStringKey("LocalizedStringKey"))
             Text(NSLocalizedString("NSLocalizedString", comment: "NSLocalizedString comment"))
+            Text(LocalizedStringKey("\(n) things and \(m) objects"))
             
             Image("LocalizedImage")
                 .resizable()

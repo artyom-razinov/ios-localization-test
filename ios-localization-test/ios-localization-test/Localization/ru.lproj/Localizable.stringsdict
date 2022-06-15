@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%lld things and %lld objects</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@things@ и %#@objects@</string>
+		<key>things</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld вещей</string>
+			<key>one</key>
+			<string>%lld вещь</string>
+			<key>many</key>
+			<string>%lld вещей</string>
+			<key>other</key>
+			<string>%lld вещи</string>
+		</dict>
+		<key>objects</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld штук</string>
+			<key>one</key>
+			<string>%lld штука</string>
+			<key>many</key>
+			<string>%lld штук</string>
+			<key>other</key>
+			<string>%lld штуки</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
