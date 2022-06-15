@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>%lld things and %lld objects</key>
+	<dict>
+		<key>things</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>‏%lld أشياء</string>
+			<key>one</key>
+			<string>‏%lld الشيء</string>
+			<key>two</key>
+			<string>‏%lld أشياء</string>
+			<key>few</key>
+			<string>‏%lld اشياء</string>
+			<key>many</key>
+			<string>‏%lld شيئًا</string>
+			<key>other</key>
+			<string>‏%lld أشياء</string>
+		</dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@things@ و %#@objects@</string>
+		<key>objects</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>‏%lld أشياء</string>
+			<key>one</key>
+			<string>‏%lld الشيء</string>
+			<key>two</key>
+			<string>‏%lld أشياء</string>
+			<key>few</key>
+			<string>‏%lld اشياء</string>
+			<key>many</key>
+			<string>‏%lld شيئًا</string>
+			<key>other</key>
+			<string>‏%lld شيئًا</string>
+		</dict>
+	</dict>
+</dict>
 </plist>
