@@ -1,2 +1,4 @@
 "Hello, world!" = "مرحبا بالعالم!";
-"SwiftUI" = "SwiftUI";
+"SwiftUI" = "SwiftUI(Arabic)";
+"LocalizedStringKey" = "(LocalizedStringKey(Arabic";
+"NSLocalizedString" = "NSLocalizedString(Arabic)";
