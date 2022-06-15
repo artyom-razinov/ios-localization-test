@@ -16,10 +16,10 @@
 			<string>%lld вещей</string>
 			<key>one</key>
 			<string>%lld вещь</string>
+			<key>few</key>
+			<string>%lld вещи</string>
 			<key>many</key>
 			<string>%lld вещей</string>
-			<key>other</key>
-			<string>%lld вещи</string>
 		</dict>
 		<key>objects</key>
 		<dict>
@@ -31,10 +31,10 @@
 			<string>%lld штук</string>
 			<key>one</key>
 			<string>%lld штука</string>
+			<key>few</key>
+			<string>%lld штуки</string>
 			<key>many</key>
 			<string>%lld штук</string>
-			<key>other</key>
-			<string>%lld штуки</string>
 		</dict>
 	</dict>
 </dict>
