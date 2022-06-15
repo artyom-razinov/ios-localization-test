@@ -1,2 +1,4 @@
 "Hello, world!" = "Привет, мир!";
 "SwiftUI" = "Свифт Юай";
+"LocalizedStringKey" = "LocalizedStringKey(Russian)";
+"NSLocalizedString" = "NSLocalizedString(Russian)";
